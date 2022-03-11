@@ -1,0 +1,6 @@
+dn: cn=replicator,dc=kube,dc=local
+objectClass: SimpleSecurityObject
+objectClass: OrganizationalRole
+cn: replicator
+description: replicator
+userPassword: replicatorP@$$w0rd
