@@ -1,8 +1,0 @@
-dn: olcOverlay=syncprov,olcDatabase={1}hdb,cn=config
-objectClass: olcOverlayConfig
-objectClass: olcConfig
-objectClass: top
-objectClass: olcSyncProvConfig
-olcOverlay: syncprov
-olcSpCheckpoint: 100 1
-olcSpSessionlog: 100
