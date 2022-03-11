@@ -1,0 +1,3 @@
+dn: olcDatabase={1}hdb,cn=config
+add: olcSyncrepl
+olcSyncrepl: rid=123 provider=ldap://master.kube.local type=refreshOnly interval=00:00:00:10 searchbase="dc=kube,dc=local" retry="5 5 300 +" schemachecking=off attrs="*,+" bindmethod=simple binddn="cn=replicator,dc=kube,dc=local" credentials=replicatorP@$$wd
